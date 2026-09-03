@@ -1,0 +1,146 @@
+{
+  "components": [
+    {
+      "mode": "0755",
+      "path": "Nameless Cat.sh",
+      "role": "launcher",
+      "sha256": "471999dec69300b042b3588abae73c10ee78df717795e24b27dc55ff17d100b7"
+    },
+    {
+      "mode": "0644",
+      "path": "nxport.json",
+      "role": "nxport",
+      "sha256": "39e79bdbdc91c139a4cae5971714d1922ca978b883b0f0b8a437c69b87fd40e9"
+    },
+    {
+      "mode": "0755",
+      "path": "namelesscat-nextos",
+      "role": "executable",
+      "sha256": "b8c8be2d0ebada4e3709acd4adec782c130c7b9cf56578bc9f9eed31265d46a8"
+    },
+    {
+      "mode": "0644",
+      "path": "port-env.sh",
+      "role": "runtime-hook",
+      "sha256": "da5fd90e09be1d6bb6b411b1c24b49f2640b0fdd0d4c80953fa90c6a97cd0458"
+    },
+    {
+      "mode": "0644",
+      "path": "extractor.json",
+      "role": "nxextract-recipe",
+      "sha256": "b2b8122cde0ade9f949ac6e8557f76fd3287cf40ffbecd6260c379ffba149f3a"
+    },
+    {
+      "mode": "0644",
+      "path": "nxextract/nxextract.py",
+      "role": "nxextract-engine",
+      "sha256": "e59a1e525ea475635c2e8f51bff3c6fff8cdaad406c158e3dad011cdd96876a7"
+    },
+    {
+      "mode": "0644",
+      "path": "nxextract/run-extractor.sh",
+      "role": "nxextract-runner",
+      "sha256": "583d046d4d95a2d15d66f0aee35911097698b34b0bd33732b2a517e6408bf9d0"
+    },
+    {
+      "mode": "0644",
+      "path": "nxextract/nxextract-runtime-env.sh",
+      "role": "nxextract-runtime-env",
+      "sha256": "332919a9960d4317563b647f9932d1a4367da147a425fe2f78eafd706f01563f"
+    },
+    {
+      "mode": "0755",
+      "path": "nxextract/nxextract-ui",
+      "role": "nxextract-ui",
+      "sha256": "8e4a68ae0a611096d23b04628b4f2e8b5cf34755fe9b71d134bc0d7ea6ccf987"
+    },
+    {
+      "mode": "0755",
+      "path": "nxsplash-nextos",
+      "role": "nxsplash",
+      "sha256": "d85d896a906a778c9af250e5617d45d085a98b18552cb0254addbbc626036c97"
+    }
+  ],
+  "generation_id": "27e8958c05ff381e789718cd131877957fb37d5ed01a19ee24eb50e151b5c1ef",
+  "identity_basis": {
+    "components": [
+      {
+        "mode": "0755",
+        "path": "Nameless Cat.sh",
+        "role": "launcher",
+        "sha256": "8b1c50669a368e22214b51da65b44b212326602a132c678c48904fd5fab14764"
+      },
+      {
+        "mode": "0644",
+        "path": "nxport.json",
+        "role": "nxport",
+        "sha256": "39e79bdbdc91c139a4cae5971714d1922ca978b883b0f0b8a437c69b87fd40e9"
+      },
+      {
+        "mode": "0755",
+        "path": "namelesscat-nextos",
+        "role": "executable",
+        "sha256": "b8c8be2d0ebada4e3709acd4adec782c130c7b9cf56578bc9f9eed31265d46a8"
+      },
+      {
+        "mode": "0644",
+        "path": "port-env.sh",
+        "role": "runtime-hook",
+        "sha256": "da5fd90e09be1d6bb6b411b1c24b49f2640b0fdd0d4c80953fa90c6a97cd0458"
+      },
+      {
+        "mode": "0644",
+        "path": "extractor.json",
+        "role": "nxextract-recipe",
+        "sha256": "b2b8122cde0ade9f949ac6e8557f76fd3287cf40ffbecd6260c379ffba149f3a"
+      },
+      {
+        "mode": "0644",
+        "path": "nxextract/nxextract.py",
+        "role": "nxextract-engine",
+        "sha256": "e59a1e525ea475635c2e8f51bff3c6fff8cdaad406c158e3dad011cdd96876a7"
+      },
+      {
+        "mode": "0644",
+        "path": "nxextract/run-extractor.sh",
+        "role": "nxextract-runner",
+        "sha256": "583d046d4d95a2d15d66f0aee35911097698b34b0bd33732b2a517e6408bf9d0"
+      },
+      {
+        "mode": "0644",
+        "path": "nxextract/nxextract-runtime-env.sh",
+        "role": "nxextract-runtime-env",
+        "sha256": "332919a9960d4317563b647f9932d1a4367da147a425fe2f78eafd706f01563f"
+      },
+      {
+        "mode": "0755",
+        "path": "nxextract/nxextract-ui",
+        "role": "nxextract-ui",
+        "sha256": "8e4a68ae0a611096d23b04628b4f2e8b5cf34755fe9b71d134bc0d7ea6ccf987"
+      },
+      {
+        "mode": "0755",
+        "path": "nxsplash-nextos",
+        "role": "nxsplash",
+        "sha256": "d85d896a906a778c9af250e5617d45d085a98b18552cb0254addbbc626036c97"
+      }
+    ],
+    "launcher_preimage_sha256": "8b1c50669a368e22214b51da65b44b212326602a132c678c48904fd5fab14764",
+    "nxbootstrap": {
+      "generator_sha256": "a1af56b972f9e1fa0cb266c972ff0294343b579c05f00f4ff22d74ec23c59b11",
+      "launcher_template_sha256": "7dd2e3a363da3f3f70732ec4b7820c3356573c9c21ffada216ce30c4ccd6c329",
+      "version": "0.7.8"
+    },
+    "nxport_sha256": "39e79bdbdc91c139a4cae5971714d1922ca978b883b0f0b8a437c69b87fd40e9",
+    "nxsplash": {
+      "architecture": "aarch64",
+      "sha256": "d85d896a906a778c9af250e5617d45d085a98b18552cb0254addbbc626036c97",
+      "version": "0.1.2"
+    },
+    "runtime_records_sha256": "ca48bdc1b540a2e2cce44ed54da0ee8fd086591f27da0fc896bfa18d30e84254",
+    "schema": "org.nextos.nxruntime.generation-identity",
+    "schema_version": 2
+  },
+  "schema": "nxruntime-generation-v2",
+  "schema_version": 2
+}

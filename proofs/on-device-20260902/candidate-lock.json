@@ -1,0 +1,261 @@
+{
+  "executable": "namelesscat/namelesscat-nextos",
+  "input_proof": {
+    "adapter_contract_sha256": "348f908207fce4069171d0cb5b8522da33eec729cfa17759da55e64fc3073531",
+    "cases": [
+      {
+        "action": "player.jump",
+        "context": "gameplay",
+        "context_source": "player:allow-control",
+        "control": "A",
+        "decision": "ACTION",
+        "delivery_count": 1,
+        "event": "press",
+        "sink": "engine.input.jump"
+      },
+      {
+        "action": "player.interact",
+        "context": "gameplay",
+        "context_source": "player:allow-control",
+        "control": "B",
+        "decision": "ACTION",
+        "delivery_count": 1,
+        "event": "press",
+        "sink": "engine.input.interact"
+      },
+      {
+        "action": "player.move",
+        "context": "gameplay",
+        "context_source": "player:allow-control",
+        "control": "LEFT_STICK",
+        "decision": "ACTION",
+        "delivery_count": 1,
+        "event": "motion",
+        "sink": "engine.input.move"
+      },
+      {
+        "action": "system.pause",
+        "context": "gameplay",
+        "context_source": "player:allow-control",
+        "control": "START",
+        "decision": "ACTION",
+        "delivery_count": 1,
+        "event": "press",
+        "sink": "engine.input.pause"
+      },
+      {
+        "action": "player.down",
+        "context": "gameplay",
+        "context_source": "player:allow-control",
+        "control": "Y",
+        "decision": "ACTION",
+        "delivery_count": 1,
+        "event": "press",
+        "sink": "engine.input.down"
+      },
+      {
+        "action": "menu.accept",
+        "context": "menu",
+        "context_source": "scene:touch-ui",
+        "control": "A",
+        "decision": "ACTION",
+        "delivery_count": 1,
+        "event": "press",
+        "sink": "engine.ui_accept"
+      },
+      {
+        "action": "cursor.click",
+        "context": "menu",
+        "context_source": "scene:touch-ui",
+        "control": "R3",
+        "decision": "ACTION",
+        "delivery_count": 1,
+        "event": "press",
+        "sink": "adapter.pointer.click"
+      },
+      {
+        "action": "cursor.move",
+        "context": "menu",
+        "context_source": "scene:touch-ui",
+        "control": "RIGHT_STICK",
+        "decision": "ACTION",
+        "delivery_count": 1,
+        "event": "motion",
+        "sink": "adapter.pointer.move"
+      },
+      {
+        "action": "system.pause",
+        "context": "menu",
+        "context_source": "scene:touch-ui",
+        "control": "START",
+        "decision": "ACTION",
+        "delivery_count": 1,
+        "event": "press",
+        "sink": "engine.input.pause"
+      }
+    ],
+    "contexts": [
+      {
+        "context": "gameplay",
+        "observed": true,
+        "source": "player:allow-control"
+      },
+      {
+        "context": "menu",
+        "observed": true,
+        "source": "scene:touch-ui"
+      }
+    ],
+    "evidence_class": "ON_DEVICE_AUTOMATED_INPUT_PROOF",
+    "generation": "27e8958c05ff381e789718cd131877957fb37d5ed01a19ee24eb50e151b5c1ef",
+    "mapping_sha256": "ab73f5f99e3d97569620cfad2d87bb7bc47607f251b741355b5b4b4cd1bdfe1a",
+    "port_id": "namelesscat",
+    "run_id": "namelesscat-1711960-1788375309-4188",
+    "runtime": {
+      "evidence_schema": "nxinput-gptk-event-evidence/1",
+      "marker": "nxinput-gptk-runtime/3",
+      "symbols": [
+        "nc_sink_adapter_pointer_click",
+        "nc_sink_adapter_pointer_move",
+        "nc_sink_adapter_system_quit",
+        "nc_sink_engine_input_down",
+        "nc_sink_engine_input_interact",
+        "nc_sink_engine_input_jump",
+        "nc_sink_engine_input_move",
+        "nc_sink_engine_input_pause",
+        "nc_sink_engine_ui_accept",
+        "nxinput_gptk_decide",
+        "nxinput_gptk_event_evidence_schema",
+        "nxinput_gptk_live_clear_context",
+        "nxinput_gptk_live_feed",
+        "nxinput_gptk_live_feed_vector",
+        "nxinput_gptk_live_init",
+        "nxinput_gptk_live_register",
+        "nxinput_gptk_live_register_vector",
+        "nxinput_gptk_live_seal",
+        "nxinput_gptk_live_set_context",
+        "nxinput_gptk_live_should_consume",
+        "nxinput_gptk_load_at",
+        "nxinput_gptk_load_receipt_json",
+        "nxinput_gptk_parse",
+        "nxinput_gptk_runtime_marker"
+      ]
+    },
+    "safety": {
+      "failed_ack": {
+        "native_replay": false,
+        "result": "FATAL"
+      },
+      "missing_sink": {
+        "delivery_count": 0,
+        "result": "PASSTHROUGH",
+        "suppressed": false
+      },
+      "unknown_context": {
+        "delivery_count": 0,
+        "result": "PASSTHROUGH",
+        "suppressed": false
+      }
+    },
+    "schema": "nxinput-gptk-event-evidence/1",
+    "schema_version": 1,
+    "sinks": [
+      {
+        "exists": true,
+        "method": "runtime-action-registry",
+        "sink": "adapter.pointer.click",
+        "symbol": "nc_sink_adapter_pointer_click",
+        "targets": [
+          "namelesscat/namelesscat-nextos"
+        ]
+      },
+      {
+        "exists": true,
+        "method": "runtime-action-registry",
+        "sink": "adapter.pointer.move",
+        "symbol": "nc_sink_adapter_pointer_move",
+        "targets": [
+          "namelesscat/namelesscat-nextos"
+        ]
+      },
+      {
+        "exists": true,
+        "method": "runtime-action-registry",
+        "sink": "adapter.system.quit",
+        "symbol": "nc_sink_adapter_system_quit",
+        "targets": [
+          "namelesscat/namelesscat-nextos"
+        ]
+      },
+      {
+        "exists": true,
+        "method": "runtime-action-registry",
+        "sink": "engine.input.down",
+        "symbol": "nc_sink_engine_input_down",
+        "targets": [
+          "namelesscat/namelesscat-nextos"
+        ]
+      },
+      {
+        "exists": true,
+        "method": "runtime-action-registry",
+        "sink": "engine.input.interact",
+        "symbol": "nc_sink_engine_input_interact",
+        "targets": [
+          "namelesscat/namelesscat-nextos"
+        ]
+      },
+      {
+        "exists": true,
+        "method": "runtime-action-registry",
+        "sink": "engine.input.jump",
+        "symbol": "nc_sink_engine_input_jump",
+        "targets": [
+          "namelesscat/namelesscat-nextos"
+        ]
+      },
+      {
+        "exists": true,
+        "method": "runtime-action-registry",
+        "sink": "engine.input.move",
+        "symbol": "nc_sink_engine_input_move",
+        "targets": [
+          "namelesscat/namelesscat-nextos"
+        ]
+      },
+      {
+        "exists": true,
+        "method": "runtime-action-registry",
+        "sink": "engine.input.pause",
+        "symbol": "nc_sink_engine_input_pause",
+        "targets": [
+          "namelesscat/namelesscat-nextos"
+        ]
+      },
+      {
+        "exists": true,
+        "method": "runtime-action-registry",
+        "sink": "engine.ui_accept",
+        "symbol": "nc_sink_engine_ui_accept",
+        "targets": [
+          "namelesscat/namelesscat-nextos"
+        ]
+      }
+    ],
+    "verdict": "OK"
+  },
+  "input_proof_receipt_sha256": "8cbdfe9db29b15237e17944e67c6c997dde38e9fdcb685e2a61749484a66b5c5",
+  "schema": "nxrelease-candidate-lock-v1",
+  "schema_version": 1,
+  "sha256": "b8c8be2d0ebada4e3709acd4adec782c130c7b9cf56578bc9f9eed31265d46a8",
+  "video_proof": {
+    "generation": "27e8958c05ff381e789718cd131877957fb37d5ed01a19ee24eb50e151b5c1ef",
+    "port_id": "namelesscat",
+    "reason": "non-black",
+    "run_id": "namelesscat-1711960-1788375309-4188",
+    "schema": "org.nextos.nxruntime.video-proof",
+    "schema_version": 1,
+    "verdict": "OK"
+  },
+  "video_proof_receipt_sha256": "faf46ba00132b9f67a4714391a7c2d9ea2c85e378681106a997ac05f750f6411"
+}

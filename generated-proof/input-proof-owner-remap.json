@@ -1,0 +1,511 @@
+{
+ "schema": "nx-device-input-proof-roteiro/1",
+ "port_id": "namelesscat",
+ "generated_by": "nxgenerator 0.3.17",
+ "classification": "ON_DEVICE_AUTOMATED_INPUT_PROOF",
+ "session": "owner-remap",
+ "purpose": "owner copy with A = null and R2 = player.jump in [gameplay]: same ELF, edited file reaches the engine",
+ "clones": 1,
+ "steps": [
+  {
+   "timeout_s": 900,
+   "wait_log": "\\[nc/gptk\\] context=menu"
+  },
+  {
+   "sleep_ms": 6000
+  },
+  {
+   "press": "R3",
+   "ms": 150
+  },
+  {
+   "sleep_ms": 500
+  },
+  {
+   "hold": "RIGHT_STICK",
+   "x": 0.0,
+   "y": 1.0,
+   "ms": 1200
+  },
+  {
+   "sleep_ms": 300
+  },
+  {
+   "hold": "RIGHT_STICK",
+   "x": 0.0,
+   "y": -1.0,
+   "ms": 25
+  },
+  {
+   "sleep_ms": 250
+  },
+  {
+   "press": "R3",
+   "ms": 150
+  },
+  {
+   "sleep_ms": 2200
+  },
+  {
+   "hold": "RIGHT_STICK",
+   "x": 0.0,
+   "y": -1.0,
+   "ms": 25
+  },
+  {
+   "sleep_ms": 250
+  },
+  {
+   "press": "R3",
+   "ms": 150
+  },
+  {
+   "sleep_ms": 2200
+  },
+  {
+   "hold": "RIGHT_STICK",
+   "x": 0.0,
+   "y": -1.0,
+   "ms": 25
+  },
+  {
+   "sleep_ms": 250
+  },
+  {
+   "press": "R3",
+   "ms": 150
+  },
+  {
+   "sleep_ms": 2200
+  },
+  {
+   "hold": "RIGHT_STICK",
+   "x": 0.0,
+   "y": -1.0,
+   "ms": 25
+  },
+  {
+   "sleep_ms": 250
+  },
+  {
+   "press": "R3",
+   "ms": 150
+  },
+  {
+   "sleep_ms": 2200
+  },
+  {
+   "hold": "RIGHT_STICK",
+   "x": 0.0,
+   "y": -1.0,
+   "ms": 25
+  },
+  {
+   "sleep_ms": 250
+  },
+  {
+   "press": "R3",
+   "ms": 150
+  },
+  {
+   "sleep_ms": 2200
+  },
+  {
+   "hold": "RIGHT_STICK",
+   "x": 0.0,
+   "y": -1.0,
+   "ms": 25
+  },
+  {
+   "sleep_ms": 250
+  },
+  {
+   "press": "R3",
+   "ms": 150
+  },
+  {
+   "sleep_ms": 2200
+  },
+  {
+   "hold": "RIGHT_STICK",
+   "x": 0.0,
+   "y": -1.0,
+   "ms": 25
+  },
+  {
+   "sleep_ms": 250
+  },
+  {
+   "press": "R3",
+   "ms": 150
+  },
+  {
+   "sleep_ms": 2200
+  },
+  {
+   "hold": "RIGHT_STICK",
+   "x": 0.0,
+   "y": -1.0,
+   "ms": 25
+  },
+  {
+   "sleep_ms": 250
+  },
+  {
+   "press": "R3",
+   "ms": 150
+  },
+  {
+   "sleep_ms": 2200
+  },
+  {
+   "hold": "RIGHT_STICK",
+   "x": 0.0,
+   "y": -1.0,
+   "ms": 25
+  },
+  {
+   "sleep_ms": 250
+  },
+  {
+   "press": "R3",
+   "ms": 150
+  },
+  {
+   "sleep_ms": 2200
+  },
+  {
+   "hold": "RIGHT_STICK",
+   "x": 0.0,
+   "y": -1.0,
+   "ms": 25
+  },
+  {
+   "sleep_ms": 250
+  },
+  {
+   "press": "R3",
+   "ms": 150
+  },
+  {
+   "sleep_ms": 2200
+  },
+  {
+   "hold": "RIGHT_STICK",
+   "x": 0.0,
+   "y": -1.0,
+   "ms": 25
+  },
+  {
+   "sleep_ms": 250
+  },
+  {
+   "press": "R3",
+   "ms": 150
+  },
+  {
+   "sleep_ms": 2200
+  },
+  {
+   "hold": "RIGHT_STICK",
+   "x": 0.0,
+   "y": -1.0,
+   "ms": 25
+  },
+  {
+   "sleep_ms": 250
+  },
+  {
+   "press": "R3",
+   "ms": 150
+  },
+  {
+   "sleep_ms": 2200
+  },
+  {
+   "hold": "RIGHT_STICK",
+   "x": 0.0,
+   "y": -1.0,
+   "ms": 25
+  },
+  {
+   "sleep_ms": 250
+  },
+  {
+   "press": "R3",
+   "ms": 150
+  },
+  {
+   "sleep_ms": 2200
+  },
+  {
+   "hold": "RIGHT_STICK",
+   "x": 0.0,
+   "y": -1.0,
+   "ms": 25
+  },
+  {
+   "sleep_ms": 250
+  },
+  {
+   "press": "R3",
+   "ms": 150
+  },
+  {
+   "sleep_ms": 2200
+  },
+  {
+   "sleep_ms": 1500
+  },
+  {
+   "ms": 150,
+   "press": "A"
+  },
+  {
+   "sleep_ms": 4000
+  },
+  {
+   "ms": 150,
+   "press": "A"
+  },
+  {
+   "sleep_ms": 2300
+  },
+  {
+   "ms": 150,
+   "press": "A"
+  },
+  {
+   "sleep_ms": 2300
+  },
+  {
+   "ms": 600,
+   "press": "RIGHT"
+  },
+  {
+   "sleep_ms": 1500
+  },
+  {
+   "ms": 150,
+   "press": "A"
+  },
+  {
+   "sleep_ms": 2300
+  },
+  {
+   "ms": 150,
+   "press": "A"
+  },
+  {
+   "sleep_ms": 2300
+  },
+  {
+   "ms": 600,
+   "press": "RIGHT"
+  },
+  {
+   "sleep_ms": 1500
+  },
+  {
+   "ms": 150,
+   "press": "A"
+  },
+  {
+   "sleep_ms": 2300
+  },
+  {
+   "ms": 150,
+   "press": "A"
+  },
+  {
+   "sleep_ms": 2300
+  },
+  {
+   "ms": 600,
+   "press": "RIGHT"
+  },
+  {
+   "sleep_ms": 1500
+  },
+  {
+   "ms": 150,
+   "press": "A"
+  },
+  {
+   "sleep_ms": 2300
+  },
+  {
+   "ms": 150,
+   "press": "A"
+  },
+  {
+   "sleep_ms": 2300
+  },
+  {
+   "ms": 600,
+   "press": "RIGHT"
+  },
+  {
+   "sleep_ms": 1500
+  },
+  {
+   "ms": 150,
+   "press": "A"
+  },
+  {
+   "sleep_ms": 2300
+  },
+  {
+   "ms": 150,
+   "press": "A"
+  },
+  {
+   "sleep_ms": 2300
+  },
+  {
+   "ms": 600,
+   "press": "RIGHT"
+  },
+  {
+   "sleep_ms": 1500
+  },
+  {
+   "ms": 150,
+   "press": "A"
+  },
+  {
+   "sleep_ms": 2300
+  },
+  {
+   "ms": 150,
+   "press": "A"
+  },
+  {
+   "sleep_ms": 2300
+  },
+  {
+   "ms": 600,
+   "press": "RIGHT"
+  },
+  {
+   "sleep_ms": 1500
+  },
+  {
+   "ms": 150,
+   "press": "A"
+  },
+  {
+   "sleep_ms": 2300
+  },
+  {
+   "ms": 150,
+   "press": "A"
+  },
+  {
+   "sleep_ms": 2300
+  },
+  {
+   "ms": 600,
+   "press": "RIGHT"
+  },
+  {
+   "sleep_ms": 1500
+  },
+  {
+   "ms": 150,
+   "press": "A"
+  },
+  {
+   "sleep_ms": 2300
+  },
+  {
+   "ms": 150,
+   "press": "A"
+  },
+  {
+   "sleep_ms": 2300
+  },
+  {
+   "ms": 600,
+   "press": "RIGHT"
+  },
+  {
+   "sleep_ms": 1500
+  },
+  {
+   "timeout_s": 30,
+   "wait_log": "context=gameplay"
+  },
+  {
+   "sleep_ms": 2000
+  },
+  {
+   "mark": true
+  },
+  {
+   "press": "A",
+   "ms": 150
+  },
+  {
+   "sleep_ms": 1500
+  },
+  {
+   "expect": "suppressed",
+   "context": "gameplay",
+   "control": "A"
+  },
+  {
+   "expect": "no_delivery",
+   "control": "A"
+  },
+  {
+   "mark": true
+  },
+  {
+   "press": "R2",
+   "ms": 150
+  },
+  {
+   "sleep_ms": 1500
+  },
+  {
+   "expect": "delivery",
+   "context": "gameplay",
+   "control": "R2",
+   "action": "player.jump",
+   "sink": "engine.input.jump"
+  },
+  {
+   "expect": "count",
+   "kind": "delivery",
+   "control": "R2",
+   "pressed": 1,
+   "value": 1
+  },
+  {
+   "mark": true
+  },
+  {
+   "chord": [
+    "SELECT",
+    "START"
+   ],
+   "ms": 300
+  },
+  {
+   "wait_exit": true,
+   "timeout_s": 60
+  },
+  {
+   "expect": "log",
+   "regex": "SELECT\\+START: lifecycle exit requested|exit-chord"
+  },
+  {
+   "expect": "exit_status",
+   "value": 0
+  },
+  {
+   "expect": "process_gone"
+  }
+ ]
+}
